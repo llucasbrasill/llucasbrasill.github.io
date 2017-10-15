@@ -662,8 +662,15 @@
 		    padding: 9px 18px;
 		    border: 1px solid #5d5d5d;
 		    text-transform: uppercase;
+		    cursor: pointer;
 		}
 
+		#submit:hover {
+			
+		    background-color: #5d5d5d;
+		    border: 1px solid #5d5d5d;
+		    color: #fff;
+		}
 
 		#contato {
 
