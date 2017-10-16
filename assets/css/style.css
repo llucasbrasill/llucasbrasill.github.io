@@ -132,7 +132,7 @@
 		#menu ul li {
 
 			position: relative;
-			display: inline-flex;
+			display: inline-grid;
 			text-transform: uppercase;
 		}
 
@@ -475,7 +475,7 @@
 
 			text-align: justify;
     		padding-top: 10px;
-    		font-size: 12px;
+    		font-size: 13px;
 		}
 
 /* -------------------------------------------------
@@ -686,7 +686,7 @@
 
 		section .info {
 
-			display: inline-flex;
+			display: inline-block;
 			text-align: center;
 			margin-top: -30px;
 		}
@@ -797,7 +797,7 @@
 		}
 
     	#minhas-habilidades .box {
-		    display: list-item;
+		    display: inline-block;
 		    position: relative;
 		    width: 100%;
 		    margin: 30px 00px auto;
@@ -822,7 +822,7 @@
 		}
 
 		section .info {
-		    display: inline-grid;
+		    display: inline-block;
 		    text-align: center;
 		    padding: 15px 0;
 		}
