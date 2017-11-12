@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 @import url("../js/ionicons-2.0.1/css/ionicons.min.css?v=2.0.1");
+@import url('https://fonts.googleapis.com/css?family=Jaldi');
 
 /* 
 =====================================================
@@ -19,16 +20,12 @@
 	Estilizações Padrões - www.llucasbrasill.com
    -------------------------------------------------- */
 
-   	@font-face {
-	    font-family: 'Maven Pro', sans-serif;
-	    src: url("../font/maven-pro/MavenPro-Regular.ttf");
-	}
 
    * {
 	   	margin: 0;
 	   	padding: 0;
 	   	border:0;
-	    font-family: 'Maven Pro', sans-serif;
+	    font-family: 'Jaldi', sans-serif;
 	    color: rgb(93, 93, 93);
    }
 	
@@ -212,9 +209,9 @@
 		}
 
 		#informações-principais h4 {
-
-    		padding: 20px 0 20px 0;
-    		font-size: 3em;
+		    padding: 15px 0 0 0;
+		    font-size: 2em;
+		    position: relative;
 		}
 
 		#informações-principais p {
@@ -230,7 +227,7 @@
 
 		#informações-principais ul li {
 
-			padding: 10px 0;
+			padding: 05px 0;
 		    display: block;
 		    text-align: justify;
 		}
@@ -544,7 +541,7 @@
 
    		#portifolio .box {
 
-			width: 300px;
+			width: 400px;
 		    height: 200px;
 		    margin: 30px 15px;
 		    display: inline-flex;
