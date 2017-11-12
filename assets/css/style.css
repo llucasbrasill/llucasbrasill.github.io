@@ -134,9 +134,9 @@
 
 		#menu ul li a {
 
-		    text-decoration: blink;
-		    padding: 32px 10px;
-		    cursor: pointer;
+		        text-decoration: blink;
+			padding: 28px 10px;
+			cursor: pointer;
 		}
 
 		#menu ul li a:hover {
