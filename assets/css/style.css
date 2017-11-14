@@ -787,11 +787,11 @@
 
     	#background-pg {
 
-		width: auto;
-    	position: fixed;
-    	margin-top: 80px;
-    	height: 100%;
-		}
+		width: 100%;
+		position: fixed;
+		margin-top: 80px;
+		height: 100%;
+	}
 
     	#primeiro-slider h2 {
 		    font-size: 65px;
