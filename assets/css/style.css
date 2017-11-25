@@ -65,10 +65,10 @@
    .seções .titulo-primario {
 
 		text-align: center;
-	    font-size: 25px;
+	    font-size: 2rem;
 	    margin: auto;
 	    margin-bottom: 30px;
-	    text-transform: uppercase;
+	    font-weight: normal;
 	}
 
    .seções .titulo-secundario {
@@ -192,7 +192,7 @@
 		#informações-pessoal #foto img {
 
 			position: relative;
-		    width: auto;
+		    width: 100%;
 		    height: 100%;
 
 		    -webkit-box-shadow: 0 0 10px rgba(148,148,148,1);
@@ -327,7 +327,8 @@
 		    outline: 0px auto -webkit-focus-ring-color;
 		    outline-offset: 0px;
 		    text-decoration: none;
-		    padding: 10px 25px;
+		    padding: 5px 25px;
+		    border-radius: 5px;
 		}
 /* -------------------------------------------------
 	Conjunto de Habilidades - www.llucasbrasill.com
@@ -350,7 +351,7 @@
 
 			display: inline-grid;
 		    position: relative;
-		    width: 30%;
+		    width: 300px;
 		    margin: 0 10px;
 		}
 
@@ -434,7 +435,7 @@
 		    margin-top: 25px;
 		    background: white;
 		    border-radius: 15px;
-		    height: 5px;
+		    height: 10px;
 
 		}
 
@@ -444,7 +445,7 @@
 			position: absolute;
 			background: #ffd400;;
 		    border-radius: 15px;
-		    height: 5px;
+		    height: 10px;
 		    left: 0;
 
 		}	
@@ -464,7 +465,7 @@
     	height: auto;
     	padding: 25px;
     	display: inline-grid;
-    	text-align: center;
+    	text-align: justify;
 		}
 
 		#o-que-eu-faco .box h3 {
@@ -523,10 +524,11 @@
 		    outline: thin dotted;
 		    outline: 0px auto -webkit-focus-ring-color;
 		    outline-offset: 0px;
-		    padding: 10px 45px;
+		    padding: 5px 45px;
 		    text-decoration: blink;
 		    margin-top: 30px;
 		    display: inline-block;
+		    border-radius: 5px;
 		}
 
 /* -------------------------------------------------
@@ -539,24 +541,32 @@
    			text-align: center;
    		}
 
+   		#portifolio .wrapper {
+
+   			width: 100%;
+   		}
+
    		#portifolio .box {
 
 			width: 400px;
 		    height: 200px;
-		    margin: 30px 15px;
+		    margin: 30px 5px;
 		    display: inline-flex;
 		    -webkit-box-shadow: 0 0 10px rgba(148, 148, 148, 0.27);
 		    -moz-box-shadow: 0 0 10px rgba(148, 148, 148, 0.27);
 		    box-shadow: 0 0 10px rgba(148, 148, 148, 0.27);
+		    border-radius: 15px;
+
 
 		}
 
 		#portifolio .box img {
 
-			width: 100%;
-			height: 100%;
-   			left: 0;
-    		position: relative;
+		    width: 100%;
+		    height: 100%;
+		    left: 0;
+		    position: relative;
+		    border-radius: 15px;
 		}
 
 		#portifolio h4, {
@@ -599,13 +609,18 @@
 			color: #fff;
 		}
 
+		#o-que-dizem blockquote{
+
+			font-size: 20px;
+		}
+
+
 		#o-que-dizem cite {
 
 			font-size: 18px;
 		    font-weight: bolder;
 		    text-align: right;
 		    float: right;
-		    padding-top: 15px;
 		    color: #fff;
 		}
 
@@ -618,6 +633,12 @@
 
 		form #info {
 
+			    display: flex;
+		}
+
+		form #info2 {
+			
+				margin: 15px 0;
 			    display: flex;
 		}
 
@@ -672,6 +693,7 @@
 		    border: 1px solid #5d5d5d;
 		    text-transform: uppercase;
 		    cursor: pointer;
+		    border-radius: 5px;
 		}
 
 		#submit:hover {
@@ -700,6 +722,7 @@
 		    font-size: 15px;
 		    font-weight: bolder;
 		}
+
 
 		.info-box span {
 
