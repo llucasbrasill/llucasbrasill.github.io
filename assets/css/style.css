@@ -939,6 +939,13 @@
 	    padding: 5px 10px;
 
 	}
+	    
+	#portifolio .box {
+	    width: 80%;
+	    height: 150px;
+	    margin: 0;
+		    
+	    }
 
     }
 
