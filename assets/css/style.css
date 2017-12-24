@@ -941,7 +941,7 @@
 	}
 	    
 	#portifolio .box {
-	    width: 80%;
+	    width: 100%!important;
 	    height: 150px;
 	    margin: 0;
 		    
