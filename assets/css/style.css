@@ -899,7 +899,7 @@
 	}
 	    
 	 #o-que-eu-faco .box {
-	    width: 80%;
+	    width: 100%;
 	    height: auto;
 	    padding: 25px 0;
 
@@ -947,7 +947,7 @@
 	}
 	    
 	#portifolio .box {
-	    width: 100%!important;
+	    width: 80%;
 	    height: 150px;
 	    margin: 0;
 		    
@@ -961,7 +961,7 @@
     position: relative;
     width: 100%;
     height: 100%;
-		    border-radius: 50%;}
+		    }
 
     }
 
