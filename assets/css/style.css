@@ -906,8 +906,9 @@
 	}
 	    
 	#informações-principais ul li {
-    		font-size: 15px;
-	}
+    font-size: 15px;
+    text-align: left;
+}
 	    
 	#background-pg {
 	    position: fixed;
@@ -940,16 +941,27 @@
 
 	}
 	    
+	#informações-principais {
+
+	    text-align: left;
+	}
+	    
 	#portifolio .box {
 	    width: 100%!important;
 	    height: 150px;
 	    margin: 0;
 		    
-	    }
+	}
 	    
 	    #primeiro-slider h2 {
     font-size: 2.5em;
 }
+	    
+	    #informações-pessoal #foto img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+		    border-radius: 50%;}
 
     }
 
