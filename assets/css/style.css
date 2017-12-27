@@ -1,9 +1,10 @@
 @charset "UTF-8";
 
 @import url("../js/ionicons-2.0.1/css/ionicons.min.css?v=2.0.1");
-@import url('https://fonts.googleapis.com/css?family=Jaldi');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
 
-/* 
+
+/*
 =====================================================
 =                                                   =
 =  Templante: llucasbrasill - WebTheme              =
@@ -11,10 +12,10 @@
 =  E-mail: lucas@llucasbrasill.com                  =
 =  Desenvolvido por: Lucas P. Sodré - llucasbrasill =
 =  Feito com muit amor. 			                =
-=                                       			=	
+=                                       			=
 =====================================================
 
- */ 
+ */
 
 /* -------------------------------------------------
 	Estilizações Padrões - www.llucasbrasill.com
@@ -25,18 +26,19 @@
 	   	margin: 0;
 	   	padding: 0;
 	   	border:0;
-	    font-family: 'Jaldi', sans-serif;
+	    font-family: 'Maven Pro', cursive;
 	    color: rgb(93, 93, 93);
    }
-	
+
    #background-pg {
 
-		width: 100%;
+		  width: 100%;
     	position: fixed;
     	margin-top: 80px;
  	}
 
    .wrapper {
+
 	   	width: 80%;
 	   	margin: 0 auto;
 	   	position: relative;
@@ -46,10 +48,10 @@
    .ajusto-centro {
 
    		text-align: center;
-
    }
 
    .ajuste {
+
 	    top: -80px;
 	    position: absolute;
    }
@@ -64,16 +66,17 @@
 
    .seções .titulo-primario {
 
-		text-align: center;
-	    font-size: 2rem;
-	    margin: auto;
-	    margin-bottom: 30px;
-	    font-weight: normal;
+     text-align: center;
+     font-size: 2rem;
+     margin: auto;
+     margin-bottom: 30px;
+     font-weight: normal;
+     text-transform: uppercase;
 	}
 
    .seções .titulo-secundario {
 
-		text-transform: uppercase;
+		  text-transform: uppercase;
 	    padding: 10px 15px;
 	    font-size: 20px;
 	    border-bottom: 1px solid #cacaca;
@@ -107,47 +110,47 @@
     	#titulo { /* seção de titulo */
 
     		width: 200px;
-			height: 80px;
-			text-align: center;
-			float: left;
-			cursor:pointer;
+			  height: 80px;
+			  text-align: center;
+			  float: left;
+			  cursor:pointer;
     	}
 
     	#titulo h1 {
 
     		padding: 25px 0;
 		    font-size: 25px;
-		}
+		  }
 
-		#menu { /* seção de menu */
+		  #menu { /* seção de menu */
 
-			float: right;
+			  float: right;
     		font-size: 15px;
-		}
+		  }
 
-		#menu ul li {
+		 #menu ul li {
 
-			position: relative;
-			display: inline-grid;
-			text-transform: uppercase;
-		}
+			 position: relative;
+			 display: inline-grid;
+			 text-transform: uppercase;
+		 }
 
 		#menu ul li a {
 
-		        text-decoration: blink;
-			padding: 28px 10px;
+		  text-decoration: blink;
+			padding: 31.5px 10px;
 			cursor: pointer;
 		}
 
 		#menu ul li a:hover {
 
 			background: #5d5d5d;
-		    color: #fff;
+		  color: #fff;
 		}
 
 /* -------------------------------------------------
 	Slider - www.llucasbrasill.com
-   -------------------------------------------------- */   
+   -------------------------------------------------- */
 
    		#slider {
 
@@ -177,7 +180,7 @@
 
 /* -------------------------------------------------
 	Qeum sou eu - www.llucasbrasill.com
-   -------------------------------------------------- */  		
+   -------------------------------------------------- */
 
 
 		#informações-pessoal #foto {
@@ -255,7 +258,7 @@
 		}
 
 		#curriculo h4 {
-		    
+
 			font-size: 14px;
 		    font-weight: bold;
 		    text-transform: uppercase;
@@ -309,7 +312,7 @@
 
 		    background: #5d5d5d;
 		    color: #fff;
-		   
+
 		}
 
 		#baixe-meu-cv a {
@@ -332,14 +335,14 @@
 		}
 /* -------------------------------------------------
 	Conjunto de Habilidades - www.llucasbrasill.com
-   -------------------------------------------------- */ 	
+   -------------------------------------------------- */
 
 
    		#minhas-habilidades {
 
-			background: rgba(0, 0, 0, 0.51);
-    		min-height: auto;
-    		text-align: center;
+        background: rgb(87, 47, 86);
+        min-height: auto;
+        text-align: center;
 		}
 
 		#minhas-habilidades h2 {
@@ -366,7 +369,7 @@
 			    display: flex;
 			    padding: 15px 0;
 			    color: #fff;
-		}	    
+		}
 
 
 		#minhas-habilidades .box .name{
@@ -432,10 +435,10 @@
 
 			width: 100%;
 			position: absolute;
-		    margin-top: 25px;
-		    background: white;
-		    border-radius: 15px;
-		    height: 10px;
+		  margin-top: 25px;
+		  background: white;
+		  border-radius: 15px;
+		  height: 5px;
 
 		}
 
@@ -444,15 +447,15 @@
 			width: 59%;
 			position: absolute;
 			background: #ffd400;;
-		    border-radius: 15px;
-		    height: 10px;
-		    left: 0;
+		  border-radius: 15px;
+		  height: 5px;
+		  left: 0;
 
-		}	
+		}
 
 /* -------------------------------------------------
 	O que eu faço - www.llucasbrasill.com
-   -------------------------------------------------- */ 	
+   -------------------------------------------------- */
 
    		#o-que-eu-faco {
 
@@ -483,14 +486,14 @@
 
 /* -------------------------------------------------
 	Vamos trabalhar juntos? - www.llucasbrasill.com
-   -------------------------------------------------- */ 		
+   -------------------------------------------------- */
 
 		#vamos-trabalhar-juntos {
 
-			background: rgba(0, 0, 0, 0.51);
-		    min-height: auto;
-		    text-align: center;
-		    position: relative;
+      background: rgb(63, 81, 181);
+      min-height: auto;
+      text-align: center;
+      position: relative;
 		}
 
 		#vamos-trabalhar-juntos h2 {
@@ -533,7 +536,7 @@
 
 /* -------------------------------------------------
 	Portifolio - www.llucasbrasill.com
-   -------------------------------------------------- */ 
+   -------------------------------------------------- */
 
    		#portifolio {
 
@@ -573,7 +576,7 @@
 
 			  position: absolute;
 
-		}	  
+		}
 
 		#tipos-de-trabalhos {
 
@@ -592,11 +595,11 @@
 		    background: #ffffff;
 		    text-transform: uppercase;
 		    color: #5d5d5d;
-		}	  
-		
+		}
+
 /* -------------------------------------------------
 	O que dizem - www.llucasbrasill.com
-   -------------------------------------------------- */ 
+   -------------------------------------------------- */
 
    		#o-que-dizem {
 
@@ -626,7 +629,7 @@
 
 /* -------------------------------------------------
 	Contato - www.llucasbrasill.com
-   -------------------------------------------------- */ 
+   -------------------------------------------------- */
 
 
 
@@ -637,7 +640,7 @@
 		}
 
 		form #info2 {
-			
+
 				margin: 15px 0;
 			    display: flex;
 		}
@@ -657,11 +660,11 @@
     		font-weight: bolder;
 		}
 
-    	form .box:first-child {     
+    	form .box:first-child {
 
     		margin-right: 1%;
     		float: left;
-		
+
 		}
 
 		form .box:nth-child(2)  {
@@ -734,7 +737,7 @@
 
 /* -------------------------------------------------
 	Rodapé - www.llucasbrasill.com
-   -------------------------------------------------- */ 
+   -------------------------------------------------- */
 
 
 		footer {
@@ -879,12 +882,12 @@
 
 /* ---------------------------------------------------------
 	Dispositivos extra pequenos, Telefones - llucasbrasill.com
-   --------------------------------------------------------- */    
+   --------------------------------------------------------- */
 
     @media only screen and (max-width : 480px) {
 
     	#vamos-trabalhar-juntos button {
-    		
+
     		width: 60%;
     	}
 
@@ -892,71 +895,71 @@
 
     		padding: 5px 10px;
     	}
-	    
+
 	 #portifolio .box img {
 	    width: 100%;
 	    height: 100%;
 	}
-	    
+
 	 #o-que-eu-faco .box {
 	    width: 100%;
 	    height: auto;
 	    padding: 25px 0;
 
 	}
-	    
+
 	#informações-principais ul li {
     font-size: 15px;
     text-align: left;
 }
-	    
+
 	#background-pg {
 	    position: fixed;
 	    margin-top: 80px;
 	    width: auto;
 	    height: 100%;
 	}
-	    
+
 	#informações-principais h4 {
 	    padding: 15px 0 0 0;
 	    font-size: 1.5em;
 	    position: relative;
 	}
-	    
+
 	#informações-principais p {
 	    font-size: 1em;
 	}
 	#informações-principais ul {
 	    padding: 5px 0;
 	}
-	    
+
 	    #resumo {
 	    padding: 15px 15px;
 	    text-align: center;
 	    font-size: 14px;
 	}
 	    .social a {
- 
+
 	    padding: 5px 10px;
 
 	}
-	    
+
 	#informações-principais {
 
 	    text-align: left;
 	}
-	    
+
 	#portifolio .box {
 	    width: 80%;
 	    height: 150px;
 	    margin: 0;
-		    
+
 	}
-	    
+
 	    #primeiro-slider h2 {
     font-size: 2.5em;
 }
-	    
+
 	    #informações-pessoal #foto img {
     position: relative;
     width: 100%;
@@ -967,8 +970,8 @@
 
 /* ---------------------------------------------------------
 	Custom, iPhone Retina
-   --------------------------------------------------------- */   
+   --------------------------------------------------------- */
 
     @media only screen and (max-width : 320px) {
 
-    }		
+    }
