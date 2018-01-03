@@ -825,10 +825,10 @@
 		}
 
     	#minhas-habilidades .box {
-		    display: inline-block;
+		    display: inline-grid;
 		    position: relative;
 		    width: 100%;
-		    margin: 30px 00px auto;
+		    margin: 30px 0px auto;
 		}
 
     }
