@@ -1,8 +1,6 @@
 @charset "UTF-8";
-
 @import url("../js/ionicons-2.0.1/css/ionicons.min.css?v=2.0.1");
 @import url('https://fonts.googleapis.com/css?family=Maven+Pro');
-
 
 /*
 =====================================================
@@ -17,961 +15,713 @@
 
  */
 
+
 /* -------------------------------------------------
 	Estilizações Padrões - www.llucasbrasill.com
    -------------------------------------------------- */
 
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 'Maven Pro', cursive;
+	color: rgb(93, 93, 93);
+}
 
-   * {
-	   	margin: 0;
-	   	padding: 0;
-	   	border:0;
-	    font-family: 'Maven Pro', cursive;
-	    color: rgb(93, 93, 93);
-   }
+#background-pg {
+	width: 100%;
+	position: fixed;
+	margin-top: 80px;
+}
 
-   #background-pg {
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+}
 
-		  width: 100%;
-    	position: fixed;
-    	margin-top: 80px;
- 	}
+.ajusto-centro {
+	text-align: center;
+}
 
-   .wrapper {
+.ajuste {
+	top: -80px;
+	position: absolute;
+}
 
-	   	width: 80%;
-	   	margin: 0 auto;
-	   	position: relative;
+.seções {
+	z-index: 998;
+	position: relative;
+	background: rgb(255, 255, 255);
+	padding: 50px 0;
+}
 
-   }
+.seções .titulo-primario {
+	text-align: center;
+	font-size: 2rem;
+	margin: auto;
+	margin-bottom: 30px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
 
-   .ajusto-centro {
-
-   		text-align: center;
-   }
-
-   .ajuste {
-
-	    top: -80px;
-	    position: absolute;
-   }
-
-   .seções {
-
-	   	z-index: 998;
-	   	position: relative;
-	   	background: rgb(255, 255, 255);
-	   	padding: 50px 0;
-   }
-
-   .seções .titulo-primario {
-
-     text-align: center;
-     font-size: 2rem;
-     margin: auto;
-     margin-bottom: 30px;
-     font-weight: normal;
-     text-transform: uppercase;
-	}
-
-   .seções .titulo-secundario {
-
-		  text-transform: uppercase;
-	    padding: 10px 15px;
-	    font-size: 20px;
-	    border-bottom: 1px solid #cacaca;
-	    margin: 0 0 15px 0;
-	    color: #625d5d;
-	    position: relative;
-	    width: 100%;
-	    text-align: right;
-	}
+.seções .titulo-secundario {
+	text-transform: uppercase;
+	padding: 10px 15px;
+	font-size: 20px;
+	border-bottom: 1px solid #cacaca;
+	margin: 0 0 15px 0;
+	color: #625d5d;
+	position: relative;
+	width: 100%;
+	text-align: right;
+}
 
 @media only screen {
-
-/* -------------------------------------------------
+	/* -------------------------------------------------
 	Cabeçalho - www.llucasbrasill.com
    -------------------------------------------------- */
-
-
-    	#cabeçalho { /* seção de cabeçalho */
-
-    		width: 100%;
-    		height: 80px;
-    		background-color: rgb(255, 255, 255);
-    		position: fixed;
-    		z-index: 999;
-
-    		-webkit-box-shadow: 0 0 5px rgba(89,89,89,.55);
-    		-moz-box-shadow: 0 0 5px rgba(89,89,89,.55);
-    		box-shadow: 0 0 5px rgba(89,89,89,.55);
-    	}
-
-    	#titulo { /* seção de titulo */
-
-    		width: 200px;
-			  height: 80px;
-			  text-align: center;
-			  float: left;
-			  cursor:pointer;
-    	}
-
-    	#titulo h1 {
-
-    		padding: 25px 0;
-		    font-size: 25px;
-		  }
-
-		  #menu { /* seção de menu */
-
-			  float: right;
-    		font-size: 15px;
-		  }
-
-		 #menu ul li {
-
-			 position: relative;
-			 display: inline-grid;
-			 text-transform: uppercase;
-		 }
-
-		#menu ul li a {
-
-		  text-decoration: blink;
-			padding: 31.5px 10px;
-			cursor: pointer;
-		}
-
-		#menu ul li a:hover {
-
-			background: #5d5d5d;
-		  color: #fff;
-		}
-
-/* -------------------------------------------------
+	#cabeçalho {
+		/* seção de cabeçalho */
+		width: 100%;
+		height: 80px;
+		background-color: rgb(255, 255, 255);
+		position: fixed;
+		z-index: 999;
+		-webkit-box-shadow: 0 0 5px rgba(89, 89, 89, .55);
+		-moz-box-shadow: 0 0 5px rgba(89, 89, 89, .55);
+		box-shadow: 0 0 5px rgba(89, 89, 89, .55);
+	}
+	#titulo {
+		/* seção de titulo */
+		width: 200px;
+		height: 80px;
+		text-align: center;
+		float: left;
+		cursor: pointer;
+	}
+	#titulo h1 {
+		padding: 25px 0;
+		font-size: 25px;
+	}
+	#menu {
+		/* seção de menu */
+		float: right;
+		font-size: 15px;
+	}
+	#menu ul li {
+		position: relative;
+		display: inline-grid;
+		text-transform: uppercase;
+	}
+	#menu ul li a {
+		text-decoration: blink;
+		padding: 31.5px 10px;
+		cursor: pointer;
+	}
+	#menu ul li a:hover {
+		background: #5d5d5d;
+		color: #fff;
+	}
+	/* -------------------------------------------------
 	Slider - www.llucasbrasill.com
    -------------------------------------------------- */
-
-   		#slider {
-
-		 	width: 100%;
-    		height: 680px;
-    		background: rgba(0, 0, 0, 0.51);
-		}
-
-		#primeiro-slider {
-
-    		text-align: center;
-    		top: 268px;
-    		position: relative;
-		}
-
-		#primeiro-slider h2 {
-
-			font-size: 85px;
-    		color: #fff;
-		}
-
-		#primeiro-slider p {
-
-			font-size: 20px;
-    		color: #fff;
-		}
-
-/* -------------------------------------------------
+	#slider {
+		width: 100%;
+		height: 680px;
+		background: rgba(0, 0, 0, 0.51);
+	}
+	#primeiro-slider {
+		text-align: center;
+		top: 268px;
+		position: relative;
+	}
+	#primeiro-slider h2 {
+		font-size: 85px;
+		color: #fff;
+	}
+	#primeiro-slider p {
+		font-size: 20px;
+		color: #fff;
+	}
+	/* -------------------------------------------------
 	Qeum sou eu - www.llucasbrasill.com
    -------------------------------------------------- */
-
-
-		#informações-pessoal #foto {
-
-			width: 250px;
-   			height: 250px;
-    		background: #daac29;
-   			position: relative;
-    		display: inline-block;
-		}
-
-		#informações-pessoal #foto img {
-
-			position: relative;
-		    width: 100%;
-		    height: 100%;
-
-		    -webkit-box-shadow: 0 0 10px rgba(148,148,148,1);
-		    -moz-box-shadow: 0 0 10px rgba(148,148,148,1);
-		    box-shadow: 0 0 10px rgba(148,148,148,1);
-		}
-
-		#informações-principais {
-
-			margin-left: 15px;
-    		position: relative;
-    		display: inline-block;
-    		font-size: 1em;
-		}
-
-		#informações-principais h4 {
-		    padding: 15px 0 0 0;
-		    font-size: 2em;
-		    position: relative;
-		}
-
-		#informações-principais p {
-
-    		font-size: 1.5em;
-		}
-
-
-		#informações-principais ul {
-
-			padding: 20px 0;
-		}
-
-		#informações-principais ul li {
-
-			padding: 05px 0;
-		    display: block;
-		    text-align: justify;
-		}
-
-		#informações-principais ul li span {
-
-			font-weight: bold;
-		    text-transform: uppercase;
-		    position: relative;
-		    color: #b3b3b3;
-		}
-
-		#resumo {
-
-			padding: 15px 0;
-    		text-align: justify;
-		}
-
-		#curriculo h3 {
-
-			text-transform: uppercase;
-    		padding: 25px 0 25px 0;
-    		letter-spacing:10px;
-
-		}
-
-		#curriculo h4 {
-
-			font-size: 14px;
-		    font-weight: bold;
-		    text-transform: uppercase;
-		    color: rgb(93, 93, 93);;
-
-		}
-
-		#curriculo ul li {
-
-			padding: 15px;
-			display: block;
-		}
-
-
-		#curriculo .data  {
-
-			padding: 15px 0;
-		    font-weight: bolder;
-		    font-size: 12px;
-		}
-
-		#curriculo ul li p {
-
-			font-size: 13px;
-		}
-
-		#curriculo .linha-do-tempo {
-
-			border-left: 3px solid rgb(93, 93, 93);;
-			padding-left: 25px;
-		}
-
-		#curriculo ul li h4 span {
-
-			border: 2px solid rgb(93, 93, 93);
-		    width: 15px;
-		    height: 15px;
-		    position: absolute;
-		    border-radius: 50%;
-		    background: #fff;
-		    left: -8px;
-		}
-
-		#baixe-meu-cv {
-
-			margin: 30px 0;
-		}
-
-		#baixe-meu-cv a:hover {
-
-
-		    background: #5d5d5d;
-		    color: #fff;
-
-		}
-
-		#baixe-meu-cv a {
-
-		    background: #ffffff;
-		    text-transform: uppercase;
-		    color: #383737;
-		    margin: 30px 0 auto;
-		    left: 50%;
-		    position: relative;
-		    margin-left: -125px;
-		    border: 1px solid #5d5d5d;
-		    cursor: pointer;
-		    outline: thin dotted;
-		    outline: 0px auto -webkit-focus-ring-color;
-		    outline-offset: 0px;
-		    text-decoration: none;
-		    padding: 5px 25px;
-		    border-radius: 5px;
-		}
-/* -------------------------------------------------
+	#informações-pessoal #foto {
+		width: 250px;
+		height: 250px;
+		background: #daac29;
+		position: relative;
+		display: inline-block;
+	}
+	#informações-pessoal #foto img {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		-webkit-box-shadow: 0 0 10px rgba(148, 148, 148, 1);
+		-moz-box-shadow: 0 0 10px rgba(148, 148, 148, 1);
+		box-shadow: 0 0 10px rgba(148, 148, 148, 1);
+	}
+	#informações-principais {
+		margin-left: 15px;
+		position: relative;
+		display: inline-block;
+		font-size: 1em;
+	}
+	#informações-principais h4 {
+		padding: 15px 0 0 0;
+		font-size: 2em;
+		position: relative;
+	}
+	#informações-principais p {
+		font-size: 1.5em;
+	}
+	#informações-principais ul {
+		padding: 20px 0;
+	}
+	#informações-principais ul li {
+		padding: 05px 0;
+		display: block;
+		text-align: justify;
+	}
+	#informações-principais ul li span {
+		font-weight: bold;
+		text-transform: uppercase;
+		position: relative;
+		color: #b3b3b3;
+	}
+	#resumo {
+		padding: 15px 0;
+		text-align: justify;
+	}
+	#curriculo h3 {
+		text-transform: uppercase;
+		padding: 25px 0 25px 0;
+		letter-spacing: 10px;
+	}
+	#curriculo h4 {
+		font-size: 14px;
+		font-weight: bold;
+		text-transform: uppercase;
+		color: rgb(93, 93, 93);
+		;
+	}
+	#curriculo ul li {
+		padding: 15px;
+		display: block;
+	}
+	#curriculo .data {
+		padding: 15px 0;
+		font-weight: bolder;
+		font-size: 12px;
+	}
+	#curriculo ul li p {
+		font-size: 13px;
+	}
+	#curriculo .linha-do-tempo {
+		border-left: 3px solid rgb(93, 93, 93);
+		;
+		padding-left: 25px;
+	}
+	#curriculo ul li h4 span {
+		border: 2px solid rgb(93, 93, 93);
+		width: 15px;
+		height: 15px;
+		position: absolute;
+		border-radius: 50%;
+		background: #fff;
+		left: -8px;
+	}
+	#baixe-meu-cv {
+		margin: 30px 0;
+	}
+	#baixe-meu-cv a:hover {
+		background: #5d5d5d;
+		color: #fff;
+	}
+	#baixe-meu-cv a {
+		background: #ffffff;
+		text-transform: uppercase;
+		color: #383737;
+		margin: 30px 0 auto;
+		left: 50%;
+		position: relative;
+		margin-left: -125px;
+		border: 1px solid #5d5d5d;
+		cursor: pointer;
+		outline: thin dotted;
+		outline: 0px auto -webkit-focus-ring-color;
+		outline-offset: 0px;
+		text-decoration: none;
+		padding: 5px 25px;
+		border-radius: 3px;
+	}
+	/* -------------------------------------------------
 	Conjunto de Habilidades - www.llucasbrasill.com
    -------------------------------------------------- */
-
-
-   		#minhas-habilidades {
-
-        background: rgb(87, 47, 86);
-        min-height: auto;
-        text-align: center;
-		}
-
-		#minhas-habilidades h2 {
-
-			color: #fff;
-		}
-
-		#minhas-habilidades .box {
-
-			display: inline-grid;
-		    position: relative;
-		    width: 300px;
-		    margin: 0 10px;
-		}
-
-		#minhas-habilidades .box h4 {
-
-			text-align: left;
-			color: #fff;
-		}
-
-		#minhas-habilidades .box ul li {
-
-			    display: flex;
-			    padding: 15px 0;
-			    color: #fff;
-		}
-
-
-		#minhas-habilidades .box .name{
-
-			float: left;
-			color: #fff;
-		}
-
-		#minhas-habilidades .box  ul li .porcentagem{
-
-			float: right;
-			right: 0;
-    		position: absolute;
-    		color: #fff;
-		}
-
-		.desenvolvimento-web .e1 {
-
-			width: 89%
-		}
-
-		.desenvolvimento-web .e2 {
-
-			width: 39%
-		}
-
-		.desenvolvimento-web .e3 {
-
-			width: 29%
-		}
-
-		.design-web .e1 {
-
-			width: 80%
-		}
-
-		.design-web .e2 {
-
-			width: 50%
-		}
-
-		.design-web .e3 {
-
-			width: 50%
-		}
-
-		.design-grafico .e1 {
-
-			width: 40%
-		}
-
-		.design-grafico .e2 {
-
-			width: 40%
-		}
-
-		.design-grafico .e3 {
-
-			width: 20%
-		}
-
-		.box-porcentagem {
-
-			width: 100%;
-			position: absolute;
-		  margin-top: 25px;
-		  background: white;
-		  border-radius: 15px;
-		  height: 5px;
-
-		}
-
-		.box-progress{
-
-			width: 59%;
-			position: absolute;
-			background: #ffd400;;
-		  border-radius: 15px;
-		  height: 5px;
-		  left: 0;
-
-		}
-
-/* -------------------------------------------------
+	#minhas-habilidades {
+		background: rgba(0, 0, 0, 0.51);
+		min-height: auto;
+		text-align: center;
+	}
+	#minhas-habilidades h2 {
+		color: #fff;
+	}
+	#minhas-habilidades .box {
+		display: inline-grid;
+		position: relative;
+		width: 300px;
+		margin: 0 10px;
+	}
+	#minhas-habilidades .box h4 {
+		text-align: left;
+		color: #fff;
+	}
+	#minhas-habilidades .box ul li {
+		display: flex;
+		padding: 15px 0;
+		color: #fff;
+	}
+	#minhas-habilidades .box .name {
+		float: left;
+		color: #fff;
+	}
+	#minhas-habilidades .box ul li .porcentagem {
+		float: right;
+		right: 0;
+		position: absolute;
+		color: #fff;
+	}
+	.desenvolvimento-web .e1 {
+		width: 89%
+	}
+	.desenvolvimento-web .e2 {
+		width: 39%
+	}
+	.desenvolvimento-web .e3 {
+		width: 29%
+	}
+	.design-web .e1 {
+		width: 80%
+	}
+	.design-web .e2 {
+		width: 50%
+	}
+	.design-web .e3 {
+		width: 50%
+	}
+	.design-grafico .e1 {
+		width: 40%
+	}
+	.design-grafico .e2 {
+		width: 40%
+	}
+	.design-grafico .e3 {
+		width: 20%
+	}
+	.box-porcentagem {
+		width: 100%;
+		position: absolute;
+		margin-top: 25px;
+		background: white;
+		border-radius: 15px;
+		height: 5px;
+	}
+	.box-progress {
+		width: 59%;
+		position: absolute;
+		background: #ffd400;
+		;
+		border-radius: 15px;
+		height: 5px;
+		left: 0;
+	}
+	/* -------------------------------------------------
 	O que eu faço - www.llucasbrasill.com
    -------------------------------------------------- */
-
-   		#o-que-eu-faco {
-
-   			margin: auto;
-   		}
-
-		#o-que-eu-faco .box {
-
-    	width: 300px;
-    	height: auto;
-    	padding: 25px;
-    	display: inline-grid;
-    	text-align: justify;
-		}
-
-		#o-que-eu-faco .box h3 {
-
-			text-transform: uppercase;
-    		font-size: 14px;
-		}
-
-		#o-que-eu-faco .box p {
-
-			text-align: justify;
-    		padding-top: 10px;
-    		font-size: 13px;
-		}
-
-/* -------------------------------------------------
+	#o-que-eu-faco {
+		margin: auto;
+	}
+	#o-que-eu-faco .box {
+		width: 300px;
+		height: auto;
+		padding: 25px;
+		display: inline-grid;
+		text-align: center;
+	}
+	#o-que-eu-faco .box h3 {
+		text-transform: uppercase;
+		font-size: 14px;
+	}
+	#o-que-eu-faco .box p {
+		padding-top: 10px;
+		font-size: 13px;
+	}
+	#o-que-eu-faco .box .miniatura {
+		margin: 0 0 25px 0;
+	}
+	#o-que-eu-faco .box .miniatura span {
+		font-size: 80px;
+	}
+	/* -------------------------------------------------
 	Vamos trabalhar juntos? - www.llucasbrasill.com
    -------------------------------------------------- */
-
-		#vamos-trabalhar-juntos {
-
-      background: rgb(63, 81, 181);
-      min-height: auto;
-      text-align: center;
-      position: relative;
-		}
-
-		#vamos-trabalhar-juntos h2 {
-
-			margin-bottom: 0;
-			color: #fff;
-		}
-
-		#vamos-trabalhar-juntos p {
-
-			padding: 15px;
-			color: #fff;
-		}
-
-		#vamos-trabalhar-juntos a:hover{
-
-    		background: #ffffff;
-		    color: #5d5d5d;
-    	}
-
-		#vamos-trabalhar-juntos a {
-
-			text-transform: uppercase;
-		    position: relative;
-		    margin: 30px;
-		    font-weight: bolder;
-		    border: 1px solid white;
-		    cursor: pointer;
-		    background: rgba(255, 255, 255, 0);
-		    color: #ffffff;
-		    outline: thin dotted;
-		    outline: 0px auto -webkit-focus-ring-color;
-		    outline-offset: 0px;
-		    padding: 5px 45px;
-		    text-decoration: blink;
-		    margin-top: 30px;
-		    display: inline-block;
-		    border-radius: 5px;
-		}
-
-/* -------------------------------------------------
+	#vamos-trabalhar-juntos {
+		background: rgba(0, 0, 0, 0.51);
+		min-height: auto;
+		text-align: center;
+		position: relative;
+	}
+	#vamos-trabalhar-juntos h2 {
+		margin-bottom: 0;
+		color: #fff;
+	}
+	#vamos-trabalhar-juntos p {
+		padding: 15px;
+		color: #fff;
+	}
+	#vamos-trabalhar-juntos a:hover {
+		background: #ffffff;
+		color: #5d5d5d;
+	}
+	#vamos-trabalhar-juntos a {
+		text-transform: uppercase;
+		position: relative;
+		margin: 30px;
+		font-weight: bolder;
+		border: 1px solid white;
+		cursor: pointer;
+		background: rgba(255, 255, 255, 0);
+		color: #ffffff;
+		outline: thin dotted;
+		outline: 0px auto -webkit-focus-ring-color;
+		outline-offset: 0px;
+		padding: 5px 45px;
+		text-decoration: blink;
+		margin-top: 30px;
+		display: inline-block;
+		border-radius: 3px;
+	}
+	/* -------------------------------------------------
 	Portifolio - www.llucasbrasill.com
    -------------------------------------------------- */
-
-   		#portifolio {
-
-   			background: #fff;
-   			text-align: center;
-   		}
-
-   		#portifolio .wrapper {
-
-   			width: 100%;
-   		}
-
-   		#portifolio .box {
-
-			width: 400px;
-		    height: 200px;
-		    margin: 30px 5px;
-		    display: inline-flex;
-		    -webkit-box-shadow: 0 0 10px rgba(148, 148, 148, 0.27);
-		    -moz-box-shadow: 0 0 10px rgba(148, 148, 148, 0.27);
-		    box-shadow: 0 0 10px rgba(148, 148, 148, 0.27);
-		    border-radius: 15px;
-
-
-		}
-
-		#portifolio .box img {
-
-		    width: 100%;
-		    height: 100%;
-		    left: 0;
-		    position: relative;
-		    border-radius: 15px;
-		}
-
-		#portifolio h4, {
-
-			  position: absolute;
-
-		}
-
-		#tipos-de-trabalhos {
-
-			position: relative;
-    		margin: 30px 0;
-    		text-align: center;
-		}
-
-		#tipos-de-trabalhos h3 {
-
-			display: inline-block;
-		    padding: 5px 10px;
-		    text-align: center;
-		    font-size: 13px;
-		    margin: 0 15px;
-		    background: #ffffff;
-		    text-transform: uppercase;
-		    color: #5d5d5d;
-		}
-
-/* -------------------------------------------------
+	#portifolio {
+		background: #fff;
+		text-align: center;
+	}
+	#portifolio .wrapper {
+		width: 100%;
+	}
+	#portifolio .box {
+		width: 400px;
+		height: 200px;
+		margin: 30px 5px;
+		display: inline-flex;
+		-webkit-box-shadow: 0 0 10px rgba(148, 148, 148, 0.27);
+		-moz-box-shadow: 0 0 10px rgba(148, 148, 148, 0.27);
+		box-shadow: 0 0 10px rgba(148, 148, 148, 0.27);
+		border-radius: 15px;
+	}
+	#portifolio .box img {
+		width: 100%;
+		height: 100%;
+		left: 0;
+		position: relative;
+		border-radius: 15px;
+	}
+	#portifolio h4,
+	{
+		position: absolute;
+	}
+	#tipos-de-trabalhos {
+		position: relative;
+		margin: 30px 0;
+		text-align: center;
+	}
+	#tipos-de-trabalhos h3 {
+		display: inline-block;
+		padding: 5px 10px;
+		text-align: center;
+		font-size: 13px;
+		margin: 0 15px;
+		background: #ffffff;
+		text-transform: uppercase;
+		color: #5d5d5d;
+		cursor: pointer;
+	}
+	/* -------------------------------------------------
 	O que dizem - www.llucasbrasill.com
    -------------------------------------------------- */
-
-   		#o-que-dizem {
-
-			background: rgba(0, 0, 0, 0.51);
-    		min-height: auto;
-		}
-
-		#o-que-dizem h2, #o-que-dizem blockquote{
-
-			color: #fff;
-		}
-
-		#o-que-dizem blockquote{
-
-			font-size: 20px;
-		}
-
-
-		#o-que-dizem cite {
-
-			font-size: 18px;
-		    font-weight: bolder;
-		    text-align: right;
-		    float: right;
-		    color: #fff;
-		}
-
-/* -------------------------------------------------
+	#o-que-dizem {
+		background: rgba(0, 0, 0, 0.51);
+		min-height: auto;
+	}
+	#o-que-dizem h2,
+	#o-que-dizem blockquote {
+		color: #fff;
+	}
+	#o-que-dizem blockquote {
+		font-size: 20px;
+	}
+	#o-que-dizem cite {
+		font-size: 18px;
+		font-weight: bolder;
+		text-align: right;
+		float: right;
+		color: #fff;
+	}
+	/* -------------------------------------------------
 	Contato - www.llucasbrasill.com
    -------------------------------------------------- */
-
-
-
-
-		form #info {
-
-			    display: flex;
-		}
-
-		form #info2 {
-
-				margin: 15px 0;
-			    display: flex;
-		}
-
-		.info .info-box a {
-
-			text-decoration: none;
-		}
-
-		form .box {
-
-			display: inline-block;
-    		width: 48%;
-    		padding: 15px 16px;
-    		color: #232323;
-    		border: 1px solid #ddd;
-    		font-weight: bolder;
-		}
-
-    	form .box:first-child {
-
-    		margin-right: 1%;
-    		float: left;
-
-		}
-
-		form .box:nth-child(2)  {
-
-			float: right;
-		}
-
-		form #mensagem {
-
-			font-weight: bolder;
-		    width: 96.5%;
-		    padding: 8px 16px;
-		    color: #232323;
-		    border: 1px solid #ddd;
-		    margin: 35px 0;
-		    resize: none;
-		    height: 190px;
-		}
-
-		#submit {
-
-			display: block;
-		    margin: 0 auto;
-		    outline: 0;
-		    background-color: transparent;
-
-		    position: relative;
-		    padding: 9px 18px;
-		    border: 1px solid #5d5d5d;
-		    text-transform: uppercase;
-		    cursor: pointer;
-		    border-radius: 5px;
-		}
-
-		#submit:hover {
-
-		    background-color: #5d5d5d;
-		    border: 1px solid #5d5d5d;
-		    color: #fff;
-		}
-
-		#contato {
-
-			text-align: center;
-		}
-
-		section .info {
-
-			display: inline-flex;
-			text-align: center;
-			margin-top: -30px;
-		}
-
-		.info-box {
-
-			padding: 50px;
-		    text-transform: uppercase;
-		    font-size: 15px;
-		    font-weight: bolder;
-		}
-
-
-		.info-box span {
-
-			font-size: 25px;
-    		left: -15px;
-    		position: relative;
-    		top: 4px;
-		}
-
-/* -------------------------------------------------
+	form #info {
+		display: flex;
+	}
+	form #info2 {
+		margin: 15px 0;
+		display: flex;
+	}
+	.info .info-box a {
+		text-decoration: none;
+	}
+	form .box {
+		display: inline-block;
+		width: 48%;
+		padding: 15px 16px;
+		color: #232323;
+		border: 1px solid #ddd;
+		font-weight: bolder;
+	}
+	form .box:first-child {
+		margin-right: 1%;
+		float: left;
+	}
+	form .box:nth-child(2) {
+		float: right;
+	}
+	form #mensagem {
+		font-weight: bolder;
+		width: 96.5%;
+		padding: 8px 16px;
+		color: #232323;
+		border: 1px solid #ddd;
+		margin: 35px 0;
+		resize: none;
+		height: 190px;
+	}
+	#submit {
+		display: block;
+		margin: 0 auto;
+		outline: 0;
+		background-color: transparent;
+		position: relative;
+		padding: 9px 18px;
+		border: 1px solid #5d5d5d;
+		text-transform: uppercase;
+		cursor: pointer;
+		border-radius: 3px;
+	}
+	#submit:hover {
+		background-color: #5d5d5d;
+		border: 1px solid #5d5d5d;
+		color: #fff;
+	}
+	#contato {
+		text-align: center;
+	}
+	section .info {
+		display: inline-flex;
+		text-align: center;
+		margin-top: -30px;
+	}
+	.info-box {
+		padding: 50px;
+		text-transform: uppercase;
+		font-size: 15px;
+		font-weight: bolder;
+	}
+	.info-box span {
+		font-size: 25px;
+		left: -15px;
+		position: relative;
+		top: 4px;
+	}
+	/* -------------------------------------------------
 	Rodapé - www.llucasbrasill.com
    -------------------------------------------------- */
-
-
-		footer {
-
-		    width: 100%;
-    		height: auto;
-    		background: rgb(31, 31, 31);
-    		position: relative;
-    		text-align: center;
-    		padding: 30px 0 30px 0;
-
-   		}
-
-		footer p {
-
-    		color: #7b7b7b;
-    		padding: 15px 0;
-    		text-transform: uppercase;
-    		font-size: 15px;
-		}
-
-		.social {
-
-			margin: 10px;
-		}
-
-		.social span {
-
-			font-size: 25px;
-    		position: relative;
-    		top: 4px;
-    		color: #7b7b7b;
-		}
-
-		.social a span:hover {
-
-    		color: white;
-		}
-
-		.social a {
-
-			text-decoration: none;
-			padding: 5px 15px;
-			position: relative;
-			display: inline-block;
-			text-decoration: none;
-
-		}
-
+	footer {
+		width: 100%;
+		height: auto;
+		background: rgb(31, 31, 31);
+		position: relative;
+		text-align: center;
+		padding: 30px 0 30px 0;
+	}
+	footer p {
+		color: #7b7b7b;
+		padding: 15px 0;
+		text-transform: uppercase;
+		font-size: 15px;
+	}
+	.social {
+		margin: 10px;
+	}
+	.social span {
+		font-size: 25px;
+		position: relative;
+		top: 4px;
+		color: #7b7b7b;
+	}
+	.social a span:hover {
+		color: white;
+	}
+	.social a {
+		text-decoration: none;
+		padding: 5px 15px;
+		position: relative;
+		display: inline-block;
+		text-decoration: none;
+	}
 }
+
 
 /* ---------------------------------------------------------
 	Dispositivos médios, desktops - llucasbrasill.com
    --------------------------------------------------------- */
 
-    @media only screen and (max-width : 992px) {
-
-    	#cabeçalho {
-
-    		text-align: center;
-    		text-align: -webkit-center;
-    	}
-
-    	#titulo {
-
-    		float: none;
-    	}
-
-    	#menu {
-
-    		display: none;
-    	}
-
-    	#background-pg {
-
+@media only screen and (max-width: 992px) {
+	#cabeçalho {
+		text-align: center;
+		text-align: -webkit-center;
+	}
+	#titulo {
+		float: none;
+	}
+	#menu {
+		display: none;
+	}
+	#background-pg {
 		width: 100%;
 		position: fixed;
 		margin-top: 80px;
 		height: 100%;
 	}
+	#primeiro-slider h2 {
+		font-size: 65px;
+		color: #fff;
+	}
+	#minhas-habilidades .box {
+		display: inline-grid;
+		position: relative;
+		width: 100%;
+		margin: 30px 0px auto;
+	}
+}
 
-    	#primeiro-slider h2 {
-		    font-size: 65px;
-		    color: #fff;
-		}
-
-    	#minhas-habilidades .box {
-		    display: inline-grid;
-		    position: relative;
-		    width: 100%;
-		    margin: 30px 0px auto;
-		}
-
-    }
 
 /* ---------------------------------------------------------
 	Dispositivos pequenos, tablets - llucasbrasill.com
    --------------------------------------------------------- */
 
-    @media only screen and (max-width : 768px) {
+@media only screen and (max-width: 768px) {
+	#informações-pessoal {
+		text-align: center;
+	}
+	#informações-pessoal #foto img {
+		border-radius: 50%;
+	}
+	#informações-principais ul li {
+		text-align: center;
+		font-size: 15px;
+	}
+	section .info {
+		display: inline-block;
+		text-align: center;
+		padding: 15px 0;
+	}
+	.info-box {
+		padding: 20px;
+	}
+	#primeiro-slider h2 {
+		font-size: 4em;
+	}
+	#primeiro-slider p {
+		font-size: 1.5em;
+	}
+	#informações-principais ul {
+		font-size: 1.5em;
+	}
+}
 
-    	#informações-pessoal {
-
-    		text-align: center;
-    	}
-
-    	#informações-principais ul li {
-
-		    text-align: center;
-		}
-
-		section .info {
-
-		    display: inline-block;
-		    text-align: center;
-		    padding: 15px 0;
-		}
-
-		.info-box {
-
-		    padding: 20px;
-		}
-
-		#primeiro-slider h2 {
-
-		    font-size: 4em;
-		}
-
-		#primeiro-slider p {
-
-		    font-size: 1.5em;
-		}
-
-		#informações-principais ul {
-
-			font-size: 1.5em;
-		}
-
-
-
-    }
 
 /* ---------------------------------------------------------
 	Dispositivos extra pequenos, Telefones - llucasbrasill.com
    --------------------------------------------------------- */
 
-    @media only screen and (max-width : 480px) {
-
-    	#vamos-trabalhar-juntos button {
-
-    		width: 60%;
-    	}
-
-    	#baixe-meu-cv a {
-
-    		padding: 5px 10px;
-    	}
-
-	 #portifolio .box img {
-	    width: 100%;
-	    height: 100%;
+@media only screen and (max-width: 480px) {
+	#vamos-trabalhar-juntos button {
+		width: 60%;
 	}
-
-	 #o-que-eu-faco .box {
-	    width: 100%;
-	    height: auto;
-	    padding: 25px 0;
-
+	#baixe-meu-cv a {
+		padding: 5px 10px;
 	}
-
+	#portifolio .box img {
+		width: 100%;
+		height: 100%;
+	}
+	#o-que-eu-faco .box {
+		width: 100%;
+		height: auto;
+		padding: 25px 0;
+	}
 	#informações-principais ul li {
-    font-size: 15px;
-    text-align: left;
-}
-
+		font-size: 15px;
+		text-align: left;
+	}
 	#background-pg {
-	    position: fixed;
-	    margin-top: 80px;
-	    width: auto;
-	    height: 100%;
+		position: fixed;
+		margin-top: 80px;
+		width: auto;
+		height: 100%;
 	}
-
 	#informações-principais h4 {
-	    padding: 15px 0 0 0;
-	    font-size: 1.5em;
-	    position: relative;
+		padding: 15px 0 0 0;
+		font-size: 1.5em;
+		position: relative;
 	}
-
 	#informações-principais p {
-	    font-size: 1em;
+		font-size: 1em;
 	}
 	#informações-principais ul {
-	    padding: 5px 0;
+		padding: 5px 0;
 	}
-
-	    #resumo {
-	    padding: 15px 15px;
-	    text-align: center;
-	    font-size: 14px;
+	#resumo {
+		padding: 15px 15px;
+		font-size: 14px;
 	}
-	    .social a {
-
-	    padding: 5px 10px;
-
+	.social a {
+		padding: 5px 10px;
 	}
-
 	#informações-principais {
-
-	    text-align: left;
+		text-align: left;
 	}
-
 	#portifolio .box {
-	    width: 80%;
-	    height: 150px;
-	    margin: 0;
-
+		width: 80%;
+		height: 150px;
+		margin: 0;
 	}
-
-	    #primeiro-slider h2 {
-    font-size: 2.5em;
+	#primeiro-slider h2 {
+		font-size: 2.5em;
+	}
+	#informações-pessoal #foto img {
+		position: relative;
+		width: 100%;
+		height: 100%;
+	}
 }
 
-	    #informações-pessoal #foto img {
-    position: relative;
-    width: 100%;
-    height: 100%;
-		    }
-
-    }
 
 /* ---------------------------------------------------------
 	Custom, iPhone Retina
    --------------------------------------------------------- */
 
-    @media only screen and (max-width : 320px) {
-
-    }
+@media only screen and (max-width: 320px) {}
