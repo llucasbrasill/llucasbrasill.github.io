@@ -104,6 +104,11 @@
 		padding: 25px 0;
 		font-size: 25px;
 	}
+	
+	#titulo h1 a {
+		text-decoration: none;
+	}
+	
 	#menu {
 		/* seção de menu */
 		float: right;
