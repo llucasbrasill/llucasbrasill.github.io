@@ -288,14 +288,18 @@
 		color: #fff;
 	}
 	#minhas-habilidades .box .name {
-		float: left;
-		color: #fff;
+	    float: left;
+	    color: #fff;
+	    position: absolute;
 	}
 	#minhas-habilidades .box ul li .porcentagem {
-		float: right;
-		right: 0;
-		position: absolute;
-		color: #fff;
+	    float: right;
+	    right: 0;
+	    position: relative;
+	    text-align: right;
+	    left: 100%;
+	    margin-left: -30px;
+	    color: #fff;
 	}
 	.desenvolvimento-web .e1 {
 		width: 89%
