@@ -6,8 +6,17 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+
 <url>
-  <loc>http://www.llucasbrasill.com/</loc>
-  <lastmod>2017-11-11T16:19:15+00:00</lastmod>
+  <loc>https://llucasbrasill.com/</loc>
+  <lastmod>2018-03-15T14:10:43+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
+<url>
+  <loc>https://llucasbrasill.com/sorteador/</loc>
+  <lastmod>2017-12-24T21:19:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
 </urlset>
