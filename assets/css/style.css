@@ -149,13 +149,12 @@
 		font-size: 20px;
 		color: #fff;
 	}
-	/* -------------------------------------------------
+/* -------------------------------------------------
 	Qeum sou eu - www.llucasbrasill.com
-   -------------------------------------------------- */
+-------------------------------------------------- */
 	#informações-pessoal #foto {
 		width: 250px;
 		height: 250px;
-		background: #daac29;
 		position: relative;
 		display: inline-block;
 	}
