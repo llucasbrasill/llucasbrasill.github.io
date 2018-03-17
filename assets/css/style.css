@@ -134,7 +134,7 @@
 	#slider {
 		width: 100%;
 		height: 680px;
-		background: rgba(0, 0, 0, 0.51);
+		background: rgba(0, 0, 0, 0.44);
 	}
 	#primeiro-slider {
 		text-align: center;
@@ -178,7 +178,7 @@
 		position: relative;
 	}
 	#informações-principais p {
-		font-size: 1.5em;
+		font-size: 1em;
 	}
 	#informações-principais ul {
 		padding: 20px 0;
