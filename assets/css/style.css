@@ -520,16 +520,19 @@
 		height: 190px;
 	}
 	#submit {
-		display: block;
-		margin: 0 auto;
-		outline: 0;
 		background-color: transparent;
-		position: relative;
-		padding: 9px 18px;
 		border: 1px solid #5d5d5d;
 		text-transform: uppercase;
+		position: relative;
+		margin: 30px;
+		font-weight: bolder;
 		cursor: pointer;
-		border-radius: 3px;
+		outline: 0px auto -webkit-focus-ring-color;
+		outline-offset: 0px;
+		padding: 15px 60px;
+		text-decoration: blink;
+		margin-top: 30px;
+		display: inline-block;
 	}
 	#submit:hover {
 		background-color: #5d5d5d;
