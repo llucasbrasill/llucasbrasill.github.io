@@ -240,25 +240,23 @@
 		margin: 30px 0;
 	}
 	#baixe-meu-cv a:hover {
-		background: #5d5d5d;
-		color: #fff;
+		background-color: #5d5d5d;
+		color: #ffffff;
 	}
 	#baixe-meu-cv a {
-		background: #ffffff;
-		text-transform: uppercase;
-		color: #383737;
-		margin: 30px 0 auto;
-		left: 50%;
-		position: relative;
-		margin-left: -125px;
-		border: 1px solid #5d5d5d;
-		cursor: pointer;
-		outline: thin dotted;
-		outline: 0px auto -webkit-focus-ring-color;
-		outline-offset: 0px;
-		text-decoration: none;
-		padding: 5px 25px;
-		border-radius: 3px;
+	    background-color: transparent;
+	    border: 1px solid #5d5d5d;
+	    text-transform: uppercase;
+	    position: relative;
+	    font-weight: bolder;
+	    cursor: pointer;
+	    padding: 15px 60px;
+	    text-decoration: blink;
+	    display: inline-block;
+	    text-align: center;
+	    margin: auto;
+	    left: 50%;
+	    margin-left: -104px;
 	}
 	/* -------------------------------------------------
 	Conjunto de Habilidades - www.llucasbrasill.com
