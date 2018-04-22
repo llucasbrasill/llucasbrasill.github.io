@@ -448,7 +448,7 @@ Estilizações Padrões - www.llucasbrasill.com
 		width: 300px;
 		height: auto;
 		padding: 25px;
-		display: inline-grid;
+		display: inline-block;
 		text-align: center;
 	}
 	#o-que-eu-faco .box h3 {
