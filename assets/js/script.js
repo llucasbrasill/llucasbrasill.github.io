@@ -48,7 +48,7 @@ var TxtType = function(el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
   this.loopNum = 0;
-  this.period = parseInt(period, 1) || 1;
+  this.period = parseInt(period, 0.5) || 0.5;
   this.txt = '';
   this.tick();
   this.isDeleting = false;
