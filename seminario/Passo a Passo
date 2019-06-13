@@ -5,10 +5,12 @@ Instalação de Squid
 sudo apt-get update 
 sudo apt-get install squid 
 
+sudo service squid restart
 
 Arquivo Configuração  
 -----------------------------------------
 /etc/squid/squid.conf
+
 
 
 Configuração de Proxy Pai
