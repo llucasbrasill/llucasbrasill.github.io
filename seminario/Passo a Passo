@@ -15,7 +15,7 @@ Arquivo Configuração
 
 Configuração de Proxy Pai
 -----------------------------------------
-
+ http_port 3128
 cache_peer 10.22.0.15 parent 3128 3130 round-robin no-query
 
 
