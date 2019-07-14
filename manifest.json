@@ -10,7 +10,7 @@
   ],
   "start_url": "www.llucasbrasill.com",
   "background_color": "#afafae",
-  "display": "standalone",
-  "scope": "/",
+  "display": "fullscreen",
+  "scope": "#",
   "theme_color": "#afafae"
 }
