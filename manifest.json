@@ -1,0 +1,16 @@
+{
+  "short_name": "Lucas P. Sodré",
+  "name": "Lucas P. Sodré",
+  "icons": [
+    {
+      "src": "/assets/img/favicon.png",
+      "type": "image/png",
+      "sizes": "500x500"
+    }
+  ],
+  "start_url": "www.llucasbrasill.com",
+  "background_color": "#afafae",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#afafae"
+}
