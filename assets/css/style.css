@@ -507,15 +507,15 @@ Estilizações Padrões - www.llucasbrasill.com
 	/* -------------------------------------------------
 	Portifolio - www.llucasbrasill.com
 	-------------------------------------------------- */
-	#portifolio {
+	#portfolio {
 		background: #fff;
 		text-align: left;
 	}
-	#portifolio .wrapper {
+	#portfolio .wrapper {
 		width: 100%;
 		text-align: center;
 	}
-	#portifolio .box {
+	#portfolio .box {
 	    width: 250px;
 	    height: 120px;
 	    margin: 30px 5px;
@@ -525,14 +525,14 @@ Estilizações Padrões - www.llucasbrasill.com
 	    box-shadow: 0 0 10px rgba(148, 148, 148, 0.27);
 	    border-radius: 10px;
 	}
-	#portifolio .box img {
+	#portfolio .box img {
 		width: 100%;
 		height: 100%;
 		left: 0;
 		position: relative;
 		border-radius: 10px;
 	}
-	#portifolio h4,
+	#portfolio h4,
 	{
 		position: absolute;
 	}
@@ -769,7 +769,7 @@ Dispositivos extra pequenos, Telefones - llucasbrasill.com
 	#vamos-trabalhar-juntos button {
 		width: 60%;
 	}
-	#portifolio .box img {
+	#portfolio .box img {
 		width: 100%;
 		height: 100%;
 	}
@@ -804,12 +804,12 @@ Dispositivos extra pequenos, Telefones - llucasbrasill.com
 	#informações-principais {
 		text-align: center;
 	}
-	#portifolio .box {
+	#portfolio .box {
 	    width: 250px;
 	    height: 120px;
 	    margin: 15px 0;
 	}
-	#portifolio .wrapper {
+	#portfolio .wrapper {
     width: 100%;
     margin: auto;
     text-align: center;
