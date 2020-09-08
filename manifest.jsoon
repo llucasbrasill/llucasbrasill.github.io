@@ -1,0 +1,8 @@
+{
+  "name": "llucasbrasill",
+  "short_name": "llucasbrasill",
+  "lang": "pt-BR",
+  "start_url": "/",
+  "display": "fullscreen",
+  "orientation": "portrait"
+}
