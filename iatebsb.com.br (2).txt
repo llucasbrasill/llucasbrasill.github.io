@@ -1,0 +1,54 @@
+;;
+;; Domain:     iatebsb.com.br.
+;; Exported:   2021-12-24 11:20:12
+;;
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;;
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;;
+;; http://www.isc.org/
+;;
+;; And RFC 1035:
+;;
+;; http://www.ietf.org/rfc/rfc1035.txt
+;;
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;;
+;; Use at your own risk.
+;; SOA Record
+iatebsb.com.br	3600	IN	SOA	iatebsb.com.br root.iatebsb.com.br 2039201141 7200 3600 86400 3600
+
+;; A Records
+geac.iatebsb.com.br.	1	IN	A	31.170.161.46
+mail.iatebsb.com.br.	1	IN	A	200.202.42.90
+teste.iatebsb.com.br.	1	IN	A	200.252.14.178
+webmail.iatebsb.com.br.	1	IN	A	200.202.42.90
+www2.iatebsb.com.br.	60	IN	A	179.184.24.102
+www4.iatebsb.com.br.	1	IN	A	186.195.36.114
+www6.iatebsb.com.br.	1	IN	A	200.252.14.178
+www8.iatebsb.com.br.	1	IN	A	179.184.24.102
+www9.iatebsb.com.br.	1	IN	A	179.184.24.102
+
+;; CNAME Records
+27304626.iatebsb.com.br.	1	IN	CNAME	google.com.
+
+;; MX Records
+iatebsb.com.br.	1	IN	MX	10 alt4.aspmx.l.google.com.
+iatebsb.com.br.	1	IN	MX	10 alt3.aspmx.l.google.com.
+iatebsb.com.br.	1	IN	MX	5 alt2.aspmx.l.google.com.
+iatebsb.com.br.	1	IN	MX	5 alt1.aspmx.l.google.com.
+iatebsb.com.br.	1	IN	MX	1 aspmx.l.google.com.
+
+;; TXT Records
+geac.iatebsb.com.br.	1	IN	TXT	"2f93cf7b6bd6a310573d4755e980f275"
+iatebsb.com.br.	1	IN	TXT	"google-site-verification=2Sstqlt4BBd5AbuFTzkbaSIXP8DKrCiOY0fwoAGW4JQ"
+iatebsb.com.br.	1	IN	TXT	"2f93cf7b6bd6a310573d4755e980f275"
+iatebsb.com.br.	1	IN	TXT	"v=spf1 a mx ip4:200.202.42.10 ~all"

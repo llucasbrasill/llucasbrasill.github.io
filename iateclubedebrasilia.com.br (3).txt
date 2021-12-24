@@ -1,0 +1,69 @@
+;;
+;; Domain:     iateclubedebrasilia.com.br.
+;; Exported:   2021-12-24 11:04:35
+;;
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;;
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;;
+;; http://www.isc.org/
+;;
+;; And RFC 1035:
+;;
+;; http://www.ietf.org/rfc/rfc1035.txt
+;;
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;;
+;; Use at your own risk.
+;; SOA Record
+iateclubedebrasilia.com.br	3600	IN	SOA	iateclubedebrasilia.com.br root.iateclubedebrasilia.com.br 2039201047 7200 3600 86400 3600
+
+;; A Records
+geac.iateclubedebrasilia.com.br.	1	IN	A	10.1.10.13
+iateclubedebrasilia.com.br.	1	IN	A	179.188.52.146
+ipv4.iateclubedebrasilia.com.br.	1	IN	A	179.188.52.146
+mssql.iateclubedebrasilia.com.br.	1	IN	A	179.188.52.146
+ns1.iateclubedebrasilia.com.br.	1	IN	A	179.188.52.146
+ns2.iateclubedebrasilia.com.br.	1	IN	A	179.188.52.146
+sistemafacil.iateclubedebrasilia.com.br.	1	IN	A	179.184.24.102
+www2.iateclubedebrasilia.com.br.	1	IN	A	200.252.14.178
+www6.iateclubedebrasilia.com.br.	1	IN	A	186.202.161.213
+
+;; CNAME Records
+27304626.iateclubedebrasilia.com.br.	1	IN	CNAME	google.com.
+autodiscove.iateclubedebrasilia.com.br.	1	IN	CNAME	autodiscover.email.locaweb.com.br.
+calendario.iateclubedebrasilia.com.br.	1	IN	CNAME	calendario.locaweb.com.br.
+drvie.iateclubedebrasilia.com.br.	1	IN	CNAME	ghs.googlehosted.com.
+email.iateclubedebrasilia.com.br.	1	IN	CNAME	ghs.googlehosted.com.
+imap.iateclubedebrasilia.com.br.	1	IN	CNAME	pop.iateclubedebrasilia.com.br.
+mail.iateclubedebrasilia.com.br.	1	IN	CNAME	pop.iateclubedebrasilia.com.br.
+pop.iateclubedebrasilia.com.br.	1	IN	CNAME	mail.ita.locamail.com.br.
+sistemaouvidoria.iateclubedebrasilia.com.br.	1	IN	CNAME	omd130.jelastic.saveincloud.net.
+smtp.iateclubedebrasilia.com.br.	1	IN	CNAME	pop.iateclubedebrasilia.com.br.
+webmail.iateclubedebrasilia.com.br.	1	IN	CNAME	ghs.googlehosted.com.
+www.iateclubedebrasilia.com.br.	1	IN	CNAME	iateclubedebrasilia.com.br.
+
+;; MX Records
+iateclubedebrasilia.com.br.	1	IN	MX	1 aspmx.l.google.com.
+iateclubedebrasilia.com.br.	1	IN	MX	10 alt4.aspmx.l.google.com.
+iateclubedebrasilia.com.br.	1	IN	MX	10 alt3.aspmx.l.google.com.
+iateclubedebrasilia.com.br.	1	IN	MX	5 alt2.aspmx.l.google.com.
+iateclubedebrasilia.com.br.	1	IN	MX	5 alt1.aspmx.l.google.com.
+
+;; NS Records
+iateclubedebrasilia.com.br.	1	IN	NS	ns3.locaweb.com.br.
+iateclubedebrasilia.com.br.	1	IN	NS	ns1.locaweb.com.br.
+iateclubedebrasilia.com.br.	1	IN	NS	ns2.locaweb.com.br.
+
+;; TXT Records
+iateclubedebrasilia.com.br.	1	IN	TXT	"760f5c09046970cf097eaf4ecb97d4d9"
+iateclubedebrasilia.com.br.	1	IN	TXT	"google-site-verification=AMXNyocbl5mrLxK28dW8JdpLsogGryga3z6Ti2uUfSw"
+iateclubedebrasilia.com.br.	1	IN	TXT	"v=spf1 include:_spf.locaweb.com.br ?all"
